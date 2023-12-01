@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import About from "../components/About";
+import Proyects from "../components/Proyects";
 
 export default function HomePages(){
     return(
@@ -9,6 +10,7 @@ export default function HomePages(){
             <Hero/>
             <div className="h-[1px] mx-5 rounded-full bg-slate-600 dark:bg-slate-300 bg-opacity-50 dark:bg-opacity-50 my-10"></div>
             <About/>
+            <Proyects/>
             <section className="h-screen text-white"></section>
         </div>
     );
