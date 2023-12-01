@@ -12,7 +12,7 @@ const routes = [
 
 function App() {
   return (
-    <div className="">
+    <div className=" dark:bg-[#25282a] bg-[#f9f9f9]">
       <Router>
         <Routes>
           {routes.map((routes) => {

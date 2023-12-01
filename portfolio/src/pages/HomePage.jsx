@@ -1,13 +1,15 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import About from "../components/About";
 
 export default function HomePages(){
     return(
         <div className="mx-auto max-w-3xl">
             <Navbar/>
             <Hero/>
-            <section className="h-screen text-white">hola</section>
-            <section className="h-screen">hola</section>
+            <div className="h-[1px] mx-5 rounded-full bg-slate-600 dark:bg-slate-300 bg-opacity-50 dark:bg-opacity-50 my-10"></div>
+            <About/>
+            <section className="h-screen text-white"></section>
         </div>
     );
 }

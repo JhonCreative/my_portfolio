@@ -37,6 +37,23 @@ export default {
           focus: "#f4fefd",
         },
       },
+      dark: {
+        colors: {
+          primary: {
+            DEFAULT: "#1b2223",
+            foreground: "#f4fefd",
+          },
+          secondary: {
+            DEFAULT: "#dd2a7b",
+            foreground: "#f4fefd",
+          },
+          danger: {
+            DEFAULT: "#0077b5",
+            foreground: "#f4fefd",
+          },
+          focus: "#f4fefd",
+        },
+      },
     },
   })],
 }
