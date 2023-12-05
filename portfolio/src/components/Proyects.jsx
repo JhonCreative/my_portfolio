@@ -1,12 +1,13 @@
 // Proyects.js
 import React from 'react';
 import ProjectAuth from './auth/ProjectAuth';
+import img_artisys from '../assets/images/img/Project_artisys.png';
 
 const projects = [
   {
-    title: 'Project 1',
-    description: 'Description for Project 1.',
-    imageUrl: 'https://placekitten.com/300/200',
+    title: 'Project Artisys',
+    description: 'Artysis simplifica la gestión de proyectos, permitiéndote enfocarte en tus tareas y creatividad de manera eficiente.',
+    imageUrl: {img_artisys},
     link: 'https://example.com/project1',
   },
   {

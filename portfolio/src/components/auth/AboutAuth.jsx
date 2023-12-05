@@ -7,7 +7,7 @@ export default function App() {
   return (
     <>
       <Button onPress={onOpen} className="bg-[#9ec5e9da] dark:bg-[#35383a] flex items-center justify-center text-white dark:text-[#afabc2] font-bold gap-3 bg-opacity-80">Service offers</Button>
-      <Modal isOpen={isOpen} onOpenChange={onOpenChange} size="2xl" backdrop="blur" className="p-5 font-custom tracking-wide mx-6 sm:m-0">
+      <Modal isOpen={isOpen} onOpenChange={onOpenChange} size="2xl" backdrop="blur" className="p-5 font-custom tracking-wide mx-6 my-6 sm:m-0">
         <ModalContent>
           {(onClose) => (
             <>
