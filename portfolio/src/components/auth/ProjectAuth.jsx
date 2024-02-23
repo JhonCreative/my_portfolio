@@ -10,7 +10,7 @@ const ProjectAuth = ({ title, description, imageUrl, link }) => {
       </div>
       <section className='my-auto gap-3 flex flex-col sm:w-1/2'>
          <h3 className='text-2xl sm:text-4xl text-center sm:text-left font-bold text-slate-800 dark:text-slate-100'>{title}</h3>
-         <p className=' font-custom track text-sm sm:text-lg text-slate-600 dark:text-slate-300 max-w-xl rounded-2xl'>{description}</p>
+         <p className=' '>{description}</p>
          <Button
                href={link}
                as={Link}

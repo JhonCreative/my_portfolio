@@ -18,7 +18,7 @@ export default function LinksAuth() {
         </Tooltip>
         <Tooltip showArrow={true} content={
           <div className="px-1 py-1">
-            <div className="text-small font-bold">jhon_kcp_</div>
+            <div className="text-small font-bold">@jhon_kcp_</div>
             <div className="text-tiny">Instagram</div>
           </div>
         } color="secondary" className=" bg-opacity-90 backdrop-blur-sm">
